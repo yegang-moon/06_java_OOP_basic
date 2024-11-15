@@ -44,8 +44,24 @@ class MethodType {
 	}
 		
 	// 입력값은 없고 결과값은 있는 경우
-		
+	
+	double type01() {
+		return 3.141592;
+	}
+	
 	// 입력값과 결과값이 모두 있는 경우
+	
+	int type11(String birth) {
+		
+		String temp = birth.substring(0 ,4);
+		
+		int age = 2024 - Integer.parseInt(temp) + 1;
+		
+		
+		
+		return age;
+	}
+	
 	
 }
 
@@ -61,6 +77,7 @@ public class MethodEx02 {
 		object.type00();
 		System.out.println();
 		
+		//예시
 		//fr.close();
 		//br.close();
 		//scan.close();
@@ -84,14 +101,40 @@ public class MethodEx02 {
 		//object.type10("order.txt", "product.txt");
 		//object.type10("order.txt", "product.txt" , "user.txt");
 		
+		
+		//예시
 		//fw.write("파일연습\n");
 		//System.out.println("테스트");
 		
 		
 		// 입력값은 없고 결과값은 있는 경우
+		double pi = object.type01();
+		System.out.println("pi : " + pi);
+		System.out.println("pi : " + object.type01());
+		
+		System.out.println();
+		
+		// 예시
+		// int length = "abcdefg".length();
 		
 		// 입력값과 결과값이 모두 있는 경우
+		int result = object.type11("19900101");
+		System.out.println("나이 : " + result + "살");
 		
+		
+		System.out.println("나이 : " + object.type11("20000101") + "살");
+		object.type11("20000101");
+		
+		if (object.type11("20100101") == 15) {
+			System.out.println("15살 입니다.");
+		}
+		
+		// 예시 
+		// String test = "abcde";
+		// char ch = test.charAt(0);
+		// int idx = test.indexOf("c");
+		// String substr = test.substring(0, 2);
+		// String[] splarr = test.split("c");
 	}
 
 }
