@@ -3,7 +3,7 @@ package step06_01.classObject;
 import java.util.Random;
 import java.util.Scanner;
 
-class Ex09 {
+class Ex0901 {
 
 	int[] front = {1, 1, 2, 2, 3, 3, 4, 4, 5, 5};
 	int[] back = new int[10];
@@ -18,7 +18,7 @@ public class ClassEx09_정답예시 {
 		Scanner scan = new Scanner(System.in);
 		Random ran = new Random();
 		
-		Ex09 e = new Ex09();
+		Ex0901 e = new Ex0901();
 		
 		int size = e.front.length;
 		

@@ -20,7 +20,7 @@ package step06_01.classObject;
 
 import java.util.Scanner;
 
-class Ex10 {
+class Ex1001 {
 	
 	int[] menuPrices   = {    2500,       3800,     1500,  1000};
 	String[] menuNames = {"치즈버거", "불고기버거", "감자튀김", "콜	라"};
@@ -36,7 +36,7 @@ public class ClassEx10_정답예시 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		Ex10 e = new Ex10();
+		Ex1001 e = new Ex1001();
 		
 		boolean isInsufficient = false;
 		

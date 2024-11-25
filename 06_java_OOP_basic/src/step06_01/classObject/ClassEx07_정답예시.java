@@ -24,7 +24,7 @@ package step06_01.classObject;
 
 import java.util.Scanner;
 
-class Ex07 {
+class Ex071 {
 	
 	int[] seat = new int[7];
 	int money = 0;
@@ -39,7 +39,7 @@ public class ClassEx07_정답예시 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		Ex07 e = new Ex07();
+		Ex071 e = new Ex071();
 		
 		while (true) {
 			

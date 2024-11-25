@@ -16,7 +16,7 @@ package step06_01.classObject;
 
 import java.util.Scanner;
 
-class Ex08 {
+class Ex081 {
 	
 	int[] game = {0, 0, 1, 0, 2, 0, 0, 1, 0};
 	
@@ -29,7 +29,7 @@ public class ClassEx08_정답예시 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		Ex08 e = new Ex08();
+		Ex081 e = new Ex081();
 		
 		int player = 0;
 		for (int i = 0; i < e.game.length; i++) {
